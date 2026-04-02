@@ -1,7 +1,7 @@
 {
-  "name": "media-uploading-website",
+  "name": "base",
   "version": "1.0.0",
-  "description": "Media Uploading Website",
+  "description": "base server nodeJS",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -11,16 +11,9 @@
   "author": "@dpwoffc",
   "license": "ISC",
   "dependencies": {
-    "@lottiefiles/dotlottie-web": "^0.65.0",
-    "@vkazee/baileys": "^1.0.3",
-    "cookieparser": "^1.4.7",
     "express": "^5.2.1",
     "jimp": "^0.16.13",
-    "multer": "^2.0.2",
-    "nodemailer": "^8.0.1",
-    "qrcode-terminal": "^0.12.0",
-    "cookie-parser": "^1.4.7",
-    "dropbox": "^10.34.0"
+    "cookie-parser": "^1.4.7"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
